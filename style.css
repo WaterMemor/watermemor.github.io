@@ -131,16 +131,17 @@ header{
 .calculator h2{margin-bottom: 40px;}
 .calculator > .col-lg-6:last-child{padding-top: 43px;}
 .calculator > .col-lg-6:last-child h4{margin-bottom: 40px;}
-.calculator+.main-btn{margin-top: 50px!important;max-width: 300px!important;}
+.calculator+.main-btn{margin-top: 50px!important;max-width: 330px!important;}
 .calculator, .calc{display: flex;}
 .parametr-title{font-size: 18px;font-weight: 300;color: #8B8B8B;}
-input{
+input, section{
     background: #FFFFFF;
     border: 1px solid #FADDFF;
     border-radius: 10px;
     padding: 6px 25px;
+    max-width:250px;
 }
-input.good{
+section.good{
     margin-bottom: 10px;
 }
 input.quan{
@@ -314,4 +315,5 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .background-img-feedback .container{display:flex;max-width: 500px;height: 100%;}
 .background-img-feedback input{width: 100%;margin:10px 0;}
 .background-img-feedback form{margin: auto;}
-.background-img-feedback form h3{margin-bottom: 40px;}
+.background-img-feedback form h3{margin-bottom: 20px;}
+.background-img-feedback form .desc{margin-bottom:20px;}
