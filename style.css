@@ -134,18 +134,19 @@ header{
 .calculator+.main-btn{margin-top: 50px!important;max-width: 330px!important;}
 .calculator, .calc{display: flex;}
 .parametr-title{font-size: 18px;font-weight: 300;color: #8B8B8B;}
-input, section{
+input, select{
     background: #FFFFFF;
     border: 1px solid #FADDFF;
     border-radius: 10px;
     padding: 6px 25px;
-    max-width:250px;
 }
-section.good{
+select.good{
     margin-bottom: 10px;
+    max-width:250px;
 }
 input.quan{
     margin-bottom: 30px;
+    max-width:250px;
 }
 p.price{
     font-weight: 700;
