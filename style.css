@@ -142,11 +142,11 @@ input, select{
 }
 select.good{
     margin-bottom: 10px;
-    max-width:250px;
+    width:250px;
 }
 input.quan{
     margin-bottom: 30px;
-    max-width:250px;
+    width:250px;
 }
 p.price{
     font-weight: 700;
